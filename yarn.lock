@@ -1144,6 +1144,18 @@
     reflect-metadata "^0.1.12"
     tslib "^1.8.1"
 
+"@freakycoder/react-native-helpers@^0.1.3":
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/@freakycoder/react-native-helpers/-/react-native-helpers-0.1.3.tgz#c395a8406b264119e1817d959377df2f18162ec9"
+  integrity sha512-2XXQlRigg/LgKhFYqzKKuef+JP8y8K6N1R/eTx6wHqSqnGi4x1cXRmCJKtT/woj4X8Lux8zThBug8miXJdPhnQ==
+
+"@freakycoder/react-native-material-textfield@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@freakycoder/react-native-material-textfield/-/react-native-material-textfield-1.0.0.tgz#d58b94a8ac652f1f27e291ae0422f9e5bd7f274a"
+  integrity sha512-3lbI4UARIv6zq0V1N3g92TFBEt1sSbmf2lRPIWarac7tPRvA77OBeVhLaGWs6t/nZqyRcUfzUswDAlppooameg==
+  dependencies:
+    prop-types "^15.5.9"
+
 "@hapi/address@2.x.x":
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/@hapi/address/-/address-2.1.4.tgz#5d67ed43f3fd41a69d4b9ff7b56e7c0d1d0a81e5"
@@ -1547,6 +1559,31 @@
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@react-native-community/eslint-plugin/-/eslint-plugin-1.1.0.tgz#e42b1bef12d2415411519fd528e64b593b1363dc"
   integrity sha512-W/J0fNYVO01tioHjvYWQ9m6RgndVtbElzYozBq1ZPrHO/iCzlqoySHl4gO/fpCl9QEFjvJfjPgtPMTMlsoq5DQ==
+
+"@react-native-community/voice@^1.1.9":
+  version "1.1.9"
+  resolved "https://registry.yarnpkg.com/@react-native-community/voice/-/voice-1.1.9.tgz#461f5d82fe9708b42bec0fe2ebded66d5f08780e"
+  integrity sha512-6QC51lIxdtPyIWyJEG7qsZ0nyRQFV7wUREcnvlQD3+xyk3p5na9LELR+rkIGdxVbLb3WJ73rhgjrc/ywyUh10Q==
+  dependencies:
+    invariant "^2.2.4"
+
+"@react-native-firebase/analytics@^7.6.8":
+  version "7.6.8"
+  resolved "https://registry.yarnpkg.com/@react-native-firebase/analytics/-/analytics-7.6.8.tgz#c551c5a328061ce177deab61e10814fa030aeeea"
+  integrity sha512-gm4xoJva6lfPCQVprbymm6TY6FwdRsLUwVZt9GM0XY+KrvJV3yk6vhlCafvpRZCEhvVQmW8QDCf0p9VaIygv9g==
+
+"@react-native-firebase/app@^8.4.6":
+  version "8.4.6"
+  resolved "https://registry.yarnpkg.com/@react-native-firebase/app/-/app-8.4.6.tgz#05b4a48f2cd452acc88dd7b816a4ca934140927f"
+  integrity sha512-4eZR133QuScvGs4IQQd6qMvQ5E1mtydVTy3DtuBCeiIqtvN8ZxBYoSMgcUmYGS4VafbS2nPh85g4e3BlaIJ2XA==
+  dependencies:
+    opencollective-postinstall "^2.0.1"
+    superstruct "^0.6.2"
+
+"@react-native-firebase/auth@^9.3.1":
+  version "9.3.1"
+  resolved "https://registry.yarnpkg.com/@react-native-firebase/auth/-/auth-9.3.1.tgz#269d4755cb398e049b5014bf35adcc631a87d6d6"
+  integrity sha512-TtCEwyO5+ZRvmlKMLz54qFshIWaDT9U162CjQX0mzybmogYKRM9UoB+mFnZLh7rKZQQgvVzzMfF+h2DUgN+9xQ==
 
 "@sinonjs/commons@^1.7.0":
   version "1.8.1"
@@ -3046,6 +3083,16 @@ cliui@^6.0.0:
     strip-ansi "^6.0.0"
     wrap-ansi "^6.2.0"
 
+clone-deep@^2.0.1:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/clone-deep/-/clone-deep-2.0.2.tgz#00db3a1e173656730d1188c3d6aced6d7ea97713"
+  integrity sha512-SZegPTKjCgpQH63E+eN6mVEEPdQBOUzjyJm5Pora4lrwWRFS8I0QAxV/KD6vV/i0WuijHZWQC1fMsPEdxfdVCQ==
+  dependencies:
+    for-own "^1.0.0"
+    is-plain-object "^2.0.4"
+    kind-of "^6.0.0"
+    shallow-clone "^1.0.0"
+
 clone@^1.0.2:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/clone/-/clone-1.0.4.tgz#da309cc263df15994c688ca902179ca3c7cd7c7e"
@@ -4260,9 +4307,21 @@ flatted@^2.0.0:
   resolved "https://registry.yarnpkg.com/flatted/-/flatted-2.0.0.tgz#55122b6536ea496b4b44893ee2608141d10d9916"
   integrity sha512-R+H8IZclI8AAkSBRQJLVOsxwAoHd6WC40b4QTNWIjzAa6BXOBfQcM587MXDTVPeYaopFNWHUFLx7eNmHDSxMWg==
 
-for-in@^1.0.2:
+for-in@^0.1.3:
+  version "0.1.8"
+  resolved "https://registry.yarnpkg.com/for-in/-/for-in-0.1.8.tgz#d8773908e31256109952b1fdb9b3fa867d2775e1"
+  integrity sha1-2Hc5COMSVhCZUrH9ubP6hn0ndeE=
+
+for-in@^1.0.1, for-in@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/for-in/-/for-in-1.0.2.tgz#81068d295a8142ec0ac726c6e2200c30fb6d5e80"
+
+for-own@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/for-own/-/for-own-1.0.0.tgz#c63332f415cedc4b04dbfe70cf836494c53cb44b"
+  integrity sha1-xjMy9BXO3EsE2/5wz4NklMU8tEs=
+  dependencies:
+    for-in "^1.0.1"
 
 forever-agent@~0.6.1:
   version "0.6.1"
@@ -5747,6 +5806,11 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   version "6.0.2"
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.2.tgz#01146b36a6218e64e58f3a8d66de5d7fc6f6d051"
 
+kind-of@^6.0.1:
+  version "6.0.3"
+  resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.3.tgz#07c05034a6c349fa06e24fa35aa76db4580ce4dd"
+  integrity sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==
+
 klaw@^1.0.0:
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/klaw/-/klaw-1.3.1.tgz#4088433b46b3b1ba259d78785d8e96f73ba02439"
@@ -6176,8 +6240,6 @@ metro-symbolicate@0.58.0:
   resolved "https://registry.yarnpkg.com/metro-symbolicate/-/metro-symbolicate-0.58.0.tgz#ba9fd52549c41fc1b656adaad7c8875726dd5abe"
   integrity sha512-uIVxUQC1E26qOMj13dKROhwAa2FmZk5eR0NcBqej/aXmQhpr8LjJg2sondkoLKUp827Tf/Fm9+pS4icb5XiqCw==
   dependencies:
-    "@babel/traverse" "^7.0.0"
-    "@babel/types" "^7.0.0"
     invariant "^2.2.4"
     metro-source-map "0.58.0"
     source-map "^0.5.6"
@@ -6386,6 +6448,14 @@ mixin-deep@^1.2.0:
   dependencies:
     for-in "^1.0.2"
     is-extendable "^1.0.1"
+
+mixin-object@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/mixin-object/-/mixin-object-2.0.1.tgz#4fb949441dab182540f1fe035ba60e1947a5e57e"
+  integrity sha1-T7lJRB2rGCVA8f4DW6YOGUel5X4=
+  dependencies:
+    for-in "^0.1.3"
+    is-extendable "^0.1.1"
 
 mkdirp@0.x, mkdirp@^0.5.0, mkdirp@^0.5.1:
   version "0.5.1"
@@ -6776,6 +6846,11 @@ open@^6.2.0:
   dependencies:
     is-wsl "^1.1.0"
 
+opencollective-postinstall@^2.0.1:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/opencollective-postinstall/-/opencollective-postinstall-2.0.3.tgz#7a0fff978f6dbfa4d006238fbac98ed4198c3259"
+  integrity sha512-8AV/sCtuzUeTo8gQK5qDZzARrulB3egtLzFgteqB2tcT4Mw7B8Kt7JcDHmltjz6FOAHsvTevk70gZEbhM4ZS9Q==
+
 optionator@^0.8.1, optionator@^0.8.2:
   version "0.8.2"
   resolved "https://registry.yarnpkg.com/optionator/-/optionator-0.8.2.tgz#364c5e409d3f4d6301d6c0b4c05bba50180aeb64"
@@ -7120,7 +7195,7 @@ prompts@^2.0.1:
     kleur "^3.0.0"
     sisteransi "^1.0.0"
 
-prop-types@15.x.x, prop-types@^15.7.2:
+prop-types@15.x.x, prop-types@^15.5.8, prop-types@^15.5.9, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -7209,6 +7284,11 @@ react-lifecycles-compat@2.0.0:
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-2.0.0.tgz#71d9c4cde47114c4102454f76da055c2bc48c948"
   integrity sha512-txfpPCQYiazVdcbMRhatqWKcAxJweUu2wDXvts5/7Wyp6+Y9cHojqXHsLPEckzutfHlxZhG8Oiundbmp8Fd6eQ==
 
+react-native-login-screen@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/react-native-login-screen/-/react-native-login-screen-2.1.1.tgz#d85ac2bcf4586114e728836dc9d3cb12646fbb69"
+  integrity sha512-8AAn39LU2HC+iAUAZijYDRsJQk5Wnfu9j3ZACt7YrZLk/uqJ+S0mdR9nIsCVm/eL9JCsb4NA97uU7V6h9jj0nQ==
+
 react-native-navigation@^7.1.0:
   version "7.1.0"
   resolved "https://registry.yarnpkg.com/react-native-navigation/-/react-native-navigation-7.1.0.tgz#05dbfc6b31dd6a8aa626a74b2f51e1cc031b230d"
@@ -7219,6 +7299,13 @@ react-native-navigation@^7.1.0:
     prop-types "15.x.x"
     react-lifecycles-compat "2.0.0"
     tslib "1.9.3"
+
+react-native-spinkit@^1.5.1:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/react-native-spinkit/-/react-native-spinkit-1.5.1.tgz#5b770ce93e1f892b3d1983fd3ce2d7375335eb6b"
+  integrity sha512-XkTgP4e+/MZpbI1GdZTIEQ+6WeMWQT4duWnSiXaaVW7py0rtaBLswtAEA6uXQGUhnxMnPWZhbLz7QponpH3ciQ==
+  dependencies:
+    prop-types "^15.5.8"
 
 react-native-typescript-transformer@^1.2.11:
   version "1.2.11"
@@ -7838,6 +7925,15 @@ setprototypeof@1.1.1:
   resolved "https://registry.yarnpkg.com/setprototypeof/-/setprototypeof-1.1.1.tgz#7e95acb24aa92f5885e0abef5ba131330d4ae683"
   integrity sha512-JvdAWfbXeIGaZ9cILp38HntZSFSo3mWg6xGcJJsd+d4aRMOqauag1C63dJfDw7OaMYwEbHMOxEZ1lqVRYP2OAw==
 
+shallow-clone@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/shallow-clone/-/shallow-clone-1.0.0.tgz#4480cd06e882ef68b2ad88a3ea54832e2c48b571"
+  integrity sha512-oeXreoKR/SyNJtRJMAKPDSvd28OqEwG4eR/xc856cRGBII7gX9lvAqDxusPm0846z/w/hWYjI1NpKwJ00NHzRA==
+  dependencies:
+    is-extendable "^0.1.1"
+    kind-of "^5.0.0"
+    mixin-object "^2.0.1"
+
 shebang-command@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/shebang-command/-/shebang-command-1.2.0.tgz#44aac65b695b03398968c39f363fee5deafdf1ea"
@@ -8214,6 +8310,14 @@ sudo-prompt@^9.0.0:
   version "9.2.1"
   resolved "https://registry.yarnpkg.com/sudo-prompt/-/sudo-prompt-9.2.1.tgz#77efb84309c9ca489527a4e749f287e6bdd52afd"
   integrity sha512-Mu7R0g4ig9TUuGSxJavny5Rv0egCEtpZRNMrZaYS1vxkiIxGiGUwoezU3LazIQ+KE04hTrTfNPgxU5gzi7F5Pw==
+
+superstruct@^0.6.2:
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/superstruct/-/superstruct-0.6.2.tgz#c5eb034806a17ff98d036674169ef85e4c7f6a1c"
+  integrity sha512-lvA97MFAJng3rfjcafT/zGTSWm6Tbpk++DP6It4Qg7oNaeM+2tdJMuVgGje21/bIpBEs6iQql1PJH6dKTjl4Ig==
+  dependencies:
+    clone-deep "^2.0.1"
+    kind-of "^6.0.1"
 
 supports-color@^2.0.0:
   version "2.0.0"

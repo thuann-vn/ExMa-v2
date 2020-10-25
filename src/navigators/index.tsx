@@ -3,6 +3,7 @@ import { Navigation } from 'react-native-navigation';
 import store from '../../shared/redux/store';
 import { registerScreens } from '../view/screens';
 import { showSplash } from './navigation';
+import firebase from '@react-native-firebase/app';
 
 /**
  * Register screens and components for react native navigation

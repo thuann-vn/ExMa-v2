@@ -1,4 +1,4 @@
-package com.fridayapp;
+package thuanguyen.exma.android;
 
 import com.reactnativenavigation.NavigationActivity;
 

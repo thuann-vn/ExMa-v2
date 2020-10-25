@@ -10,8 +10,8 @@
   ],
   "version": "0.4.0",
   "author": {
-    "name": "Amit Mangal",
-    "email": "mangalamitash@gmail.com",
+    "name": "Thua Nguyen",
+    "email": "ngocthua92@live.com",
     "url": "https://github.com/AmitM30"
   },
   "private": false,
@@ -21,7 +21,7 @@
   },
   "bugs": {
     "url": "https://github.com/AmitM30/react-native-typescript-boilerplate/issues",
-    "email": "mangalamitash@gmail.com"
+    "email": "ngocthua92@live.com"
   },
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
@@ -34,9 +34,17 @@
     "lint:fix": "cross-env-shell tslint --fix --project ./tsconfig.json"
   },
   "dependencies": {
+    "@freakycoder/react-native-helpers": "^0.1.3",
+    "@freakycoder/react-native-material-textfield": "^1.0.0",
+    "@react-native-community/voice": "^1.1.9",
+    "@react-native-firebase/analytics": "^7.6.8",
+    "@react-native-firebase/app": "^8.4.6",
+    "@react-native-firebase/auth": "^9.3.1",
     "react": "^16.13.1",
     "react-native": "^0.63.3",
+    "react-native-login-screen": "^2.1.1",
     "react-native-navigation": "^7.1.0",
+    "react-native-spinkit": "^1.5.1",
     "react-redux": "^7.0.3",
     "redux": "^4.0.1",
     "redux-thunk": "^2.3.0"

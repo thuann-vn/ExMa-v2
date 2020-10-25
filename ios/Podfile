@@ -43,11 +43,11 @@ def flipper_post_install(installer)
   end
 end
 
-target 'FridayApp' do
+target 'ExMa' do
   config = use_native_modules!
   use_react_native!(:path => config["reactNativePath"])
 
-  target 'FridayAppTests' do
+  target 'ExMaTests' do
     inherit! :complete
     # Pods for testing
   end
@@ -62,10 +62,10 @@ target 'FridayApp' do
   end
 end
 
-target 'FridayApp-tvOS' do
-  # Pods for FridayApp-tvOS
+target 'ExMa-tvOS' do
+  # Pods for ExMa-tvOS
 
-  target 'FridayApp-tvOSTests' do
+  target 'ExMa-tvOSTests' do
     inherit! :complete
     # Pods for testing
   end

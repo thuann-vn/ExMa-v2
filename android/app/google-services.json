@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1009420923557",
+    "firebase_url": "https://myfinanceapp-228202.firebaseio.com",
+    "project_id": "myfinanceapp-228202",
+    "storage_bucket": "myfinanceapp-228202.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1009420923557:android:42e82036738ba704f6934c",
+        "android_client_info": {
+          "package_name": "thuanguyen.exma.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1009420923557-eahid5gkph8pu9nkdjplgc2hnt9765ku.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCugspsMIh1_qAeldxI-ymF5CO82faPC9o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1009420923557-eahid5gkph8pu9nkdjplgc2hnt9765ku.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1009420923557-mdd89mva6vfndbca846qi7sd48p4fdb1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "thuanguyen.exmapro.ios"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

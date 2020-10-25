@@ -1,5 +1,4 @@
-package com.fridayapp;
-
+package thuanguyen.exma.android;
 
 import android.content.Context;
 

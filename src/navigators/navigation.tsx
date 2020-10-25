@@ -42,7 +42,7 @@ export const tabbedNavigation = () =>
                   ],
                   options: {
                     topBar: {
-                      visible: false,
+                      title: 'Test',
                       drawBehind: true,
                       animate: true,
                     },
