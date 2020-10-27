@@ -3,6 +3,7 @@ import { SafeAreaView } from 'react-native';
 
 import styles from './styles';
 import { CText } from '../../elements/custom';
+import StickyParallaxHeader from 'react-native-sticky-parallax-header';
 
 export interface Props {}
 
@@ -18,9 +19,7 @@ class Settings extends React.PureComponent<Props, State> {
 
   render() {
     return (
-      <SafeAreaView style={styles.container}>
-        <CText>Settings</CText>
-      </SafeAreaView>
+      <StickyParallaxHeader headerType="TabbedHeader" />
     );
   }
 }
